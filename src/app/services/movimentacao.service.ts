@@ -15,4 +15,13 @@ export class MovimentacaoService {
     return this.http.get(`${baseUrl}/movimentacoes`);
   }
   
+  create(movimentacao:any): Observable<any> {
+    return this.http.post(`${baseUrl}/movimentacoes`,movimentacao);
+ }
+
+ findByIdConta(idConta:any): Observable<any> {
+  return this.http.get(`${baseUrl}/movimentacoes/${idConta}`);
+  
+}
+
 }

@@ -1,0 +1,8 @@
+.img {
+
+    background-image: url("https://imgur.com/Yn8p8qA.jpeg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    border: solid 2px black;
+
+}
